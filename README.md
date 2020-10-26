@@ -1,4 +1,5 @@
 # weight-converter
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be40d043-33fa-42a0-9fec-67c382ad9628/deploy-status)](https://app.netlify.com/sites/vue-weight-converter/deploys)
 
 ## Project setup
 ```
