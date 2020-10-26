@@ -25,7 +25,7 @@
         <input type="number" v-model="number" name="number" id="" placeholder="Enter Figure" class="block appearance-none bg-gray-100 border border-gray-200 py-3 px-4 pr-8 rounded w-full mt-4 text-gray-700">
       </div>
 
-      <div class="my-4">
+      <div class="my-4" v-show="unit === '-----' ? false : true">
         <!-- Use v-show to toggle hide or show -->
         <div id="pounds" v-show="unit === 'pounds' ? false : true" class="bg-gray-900 px-6 py-8 rounded-lg mt-2">
           <h4 class="font-bold text-2xl">Pounds</h4>
